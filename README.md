@@ -26,9 +26,9 @@ Node.js + Express (TypeScript) で構築された REST API と SQLite データ�
 | **Dev Tools** | VS Code, npm |
 
 ---
-```
-## 📁 ディレクトリ構造
 
+## 📁 ディレクトリ構造
+```
 ticket-app/
 ├── src/
 │   ├── server.ts      # Express サーバー・API エンドポイント設定
