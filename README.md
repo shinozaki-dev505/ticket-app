@@ -46,15 +46,16 @@ ticket-app/
 ## ⚙️ セットアップ・起動手順
 
 1. **リポジトリのクローン・依存関係のインストール**
-
+```
 git clone https://github.com/shinozaki-dev505/ticket-app.git
 cd ticket-app
 npm install
+```
 
 2. **開発サーバーの起動**
-
+```
 npx tsx src/server.ts
-
+```
 起動後、ターミナルに以下が表示されます。
 サーバーが起動しました: http://localhost:3000
 
