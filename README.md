@@ -16,6 +16,12 @@ Node.js + Express (TypeScript) で構築された REST API と SQLite データ�
 
 ---
 
+## ? 画面イメージ
+- **新規チケット作成～一覧**：作成：タイトル、内容を入力し投稿するボタン押下　一覧：作成後一覧表示されます。チケットの編集（更新）、削除可能。
+<img width="2284" height="2554" alt="tickets-app" src="https://github.com/user-attachments/assets/95429f56-5059-4064-b7fe-e7bb436e02ca" />
+
+---
+
 ## 🛠️ 技術構成 (Tech Stack)
 
 | カテゴリ | 技術・ライブラリ |
