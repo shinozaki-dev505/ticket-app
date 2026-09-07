@@ -26,7 +26,7 @@ Node.js + Express (TypeScript) で構築された REST API と SQLite データ�
 | **Dev Tools** | VS Code, npm |
 
 ---
-
+```
 ## 📁 ディレクトリ構造
 
 ticket-app/
@@ -40,7 +40,7 @@ ticket-app/
 ├── tickets.db         # SQLite データベースファイル（自動生成）
 ├── package.json
 └── tsconfig.json
-
+```
 ---
 
 ## ⚙️ セットアップ・起動手順
