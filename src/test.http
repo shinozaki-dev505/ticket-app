@@ -1,0 +1,22 @@
+### 1. チケット一覧の取得 (GET)
+GET http://localhost:3000/tickets
+
+### 2. チケットの新規作成 (POST)
+POST http://localhost:3000/tickets
+Content-Type: application/json
+
+{
+  "title": "ログイン画面のレイアウト修正",
+  "description": "送信ボタンの位置を調整する"
+}
+
+### 3. チケットの更新 (PATCH)
+PATCH http://localhost:3000/tickets/1
+Content-Type: application/json
+
+{
+  "status": "in_progress"
+}
+
+### 4. チケットの削除 (DELETE)
+DELETE http://localhost:3000/tickets/1

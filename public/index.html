@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>チケット管理アプリ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>チケット管理</h1>
+
+    <!-- 新規投稿フォーム -->
+    <section class="form-section">
+      <h2>新規チケット作成</h2>
+      <form id="ticket-form">
+        <div class="form-group">
+          <label for="title">タイトル</label>
+          <input type="text" id="title" required placeholder="例: バグ修正">
+        </div>
+        <div class="form-group">
+          <label for="description">内容</label>
+          <textarea id="description" rows="3" placeholder="詳細を入力してください"></textarea>
+        </div>
+        <button type="submit">投稿する</button>
+      </form>
+    </section>
+
+    <!-- チケット一覧表示エリア -->
+    <section class="list-section">
+      <h2>チケット一覧</h2>
+      <div id="ticket-list" class="ticket-list">
+        <!-- JSでここにチケットカードが動的挿入されます -->
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
